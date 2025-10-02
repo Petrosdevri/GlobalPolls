@@ -19,6 +19,8 @@ armenia:
 georgia:
 	make run-script CONTINENT=Eurasia REGION=Caucasus COUNTRY=Georgia
 
+moldova:
+	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Moldova
 russia:
 	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Russia
 ukraine:
