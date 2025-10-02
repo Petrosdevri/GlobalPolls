@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 parties = ['PP', 'PSOE', 'Vox', 'Sumar', 'Podemos', 'ERC', 'Junts', 'EH Bildu', 'EAJ-PNV', 'BNG', 'CC', 'UPN', 'SALF']
-polling_2025 = [31.4, 25.0, 17.5, 6.3, 5.7, 1.8, 2.0, 1.3, 1.2, 0.9, 0.5, 0.2, 1.9]
+polling_2025 = [30.3, 25.5, 17.7, 6.7, 6.4, 1.6, 1.8, 1.4, 1.3, 1.0, 0.5, 0.2, 1.8]
 election_2023 = [33.06, 31.68, 12.38, 12.33, 12.33, 1.89, 1.60, 1.36, 1.12, 0.62, 0.47, 0.21, 0.10]
 
 poll_colors = ['#048bd4', '#fa0404', '#5bc137', '#e21655', '#926af2', '#ffb232', '#04c3b3', '#67d7c9', '#0da35e', '#78b3da', '#f5d44f', '#0e57af', '#755e4c']
