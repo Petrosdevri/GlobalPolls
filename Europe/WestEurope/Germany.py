@@ -18,7 +18,7 @@ ax.bar(x - width/10, polling_2025, width=width, color=poll_colors, label='August
 ax.set_ylabel('%')
 ax.set_xticks(x)
 ax.set_xticklabels(parties)
-ax.set_title('France Opinion Polls')
+ax.set_title('Germany Opinion Polls')
 
 plt.savefig('Europe/WestEurope/Germany Opinion Polls.png', dpi=300, bbox_inches='tight')
 plt.show()
