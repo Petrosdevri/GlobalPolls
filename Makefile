@@ -84,8 +84,12 @@ slovenia:
 spain:
 	make run-script CONTINENT=Europe REGION=SouthEurope COUNTRY=Spain
 
+scotland:
+	make run-script CONTINENT=Europe REGION=UK COUNTRY=Scotland
 uk:
 	make run-script CONTINENT=Europe REGION=UK COUNTRY=UK
+wales:
+	make run-script CONTINENT=Europe REGION=UK COUNTRY=Wales
 
 austria:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Austria
