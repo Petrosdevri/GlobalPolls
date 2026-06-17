@@ -4,6 +4,9 @@ run-script:
 canada:
 	make run-script CONTINENT=America REGION=NorthAmerica COUNTRY=Canada
 
+colombia:
+	make run-script CONTINENT=America REGION=SouthAmerica COUNTRY=Colombia
+
 japan:
 	make run-script CONTINENT=Asia REGION=EastAsia COUNTRY=Japan
 south-korea:
@@ -15,7 +18,7 @@ israel:
 	make run-script CONTINENT=Asia REGION=MiddleEast COUNTRY=Israel
 
 armenia:
-	make run-script CONTINENT=Asia REGION=Caucasus COUNTRY=Armenia
+	make run-script CONTINENT=Eurasia REGION=Caucasus COUNTRY=Armenia
 georgia:
 	make run-script CONTINENT=Eurasia REGION=Caucasus COUNTRY=Georgia
 
@@ -84,6 +87,8 @@ slovenia:
 spain:
 	make run-script CONTINENT=Europe REGION=SouthEurope COUNTRY=Spain
 
+makerfield:
+	make run-script CONTINENT=Europe REGION=UK COUNTRY=Makerfield
 scotland:
 	make run-script CONTINENT=Europe REGION=UK COUNTRY=Scotland
 uk:
