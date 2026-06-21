@@ -6,6 +6,8 @@ canada:
 
 colombia:
 	make run-script CONTINENT=America REGION=SouthAmerica COUNTRY=Colombia
+colombia2:
+	make run-script CONTINENT=America REGION=SouthAmerica COUNTRY=Colombia2
 
 japan:
 	make run-script CONTINENT=Asia REGION=EastAsia COUNTRY=Japan
