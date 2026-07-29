@@ -91,6 +91,8 @@ spain:
 
 makerfield:
 	make run-script CONTINENT=Europe REGION=UK COUNTRY=Makerfield
+manchester:
+	make run-script CONTINENT=Europe REGION=UK COUNTRY=Manchester
 scotland:
 	make run-script CONTINENT=Europe REGION=UK COUNTRY=Scotland
 uk:
