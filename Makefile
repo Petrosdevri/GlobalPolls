@@ -9,6 +9,9 @@ colombia:
 colombia2:
 	make run-script CONTINENT=America REGION=SouthAmerica COUNTRY=Colombia2
 
+michigansenate:
+	make run-script CONTINENT=America REGION=UnitedStates COUNTRY=MichiganSenate
+
 japan:
 	make run-script CONTINENT=Asia REGION=EastAsia COUNTRY=Japan
 south-korea:
