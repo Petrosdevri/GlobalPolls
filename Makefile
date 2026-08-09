@@ -1,6 +1,9 @@
 run-script:
 	python3 ${CONTINENT}/$(REGION)/$(COUNTRY).py
 
+zambia:
+	make run-script CONTINENT=Africa REGION=SouthernAfrica COUNTRY=Zambia
+
 canada:
 	make run-script CONTINENT=America REGION=NorthAmerica COUNTRY=Canada
 
