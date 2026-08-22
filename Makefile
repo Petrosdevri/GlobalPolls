@@ -30,6 +30,9 @@ armenia:
 georgia:
 	make run-script CONTINENT=Eurasia REGION=Caucasus COUNTRY=Georgia
 
+kazakhstan:
+	make run-script CONTINENT=Eurasia REGION=CentralAsia COUNTRY=Kazakhstan
+
 moldova:
 	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Moldova
 russia:
@@ -124,6 +127,8 @@ netherlands:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Netherlands
 netherlands-seats:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=NetherlandsSeats
+swi-ref-june2026:
+	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=SwitzerlandRefJune2026
 switzerland:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Switzerland
 wallonia:
