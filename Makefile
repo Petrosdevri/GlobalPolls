@@ -60,6 +60,8 @@ finland:
 	make run-script CONTINENT=Europe REGION=NorthEurope COUNTRY=Finland
 iceland:
 	make run-script CONTINENT=Europe REGION=NorthEurope COUNTRY=Iceland
+iceland-ref-2026:
+	make run-script CONTINENT=Europe REGION=NorthEurope COUNTRY=IcelandRef2026
 ireland:
 	make run-script CONTINENT=Europe REGION=NorthEurope COUNTRY=Ireland
 latvia:
