@@ -129,6 +129,8 @@ netherlands:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Netherlands
 netherlands-seats:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=NetherlandsSeats
+saxony-anhalt:
+	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=SaxonyAnhalt
 swi-ref-june2026:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=SwitzerlandRefJune2026
 switzerland:
