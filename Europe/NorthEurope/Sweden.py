@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 parties = ['S', 'SD', 'M', 'V', 'C', 'KD', 'MP', 'L']
-polling_2025 = [33.9, 20.5, 18.3, 7.0, 5.4, 3.5, 6.3, 2.8]
+polling_2026 = [31.2, 19.8, 17.5, 7.8, 6.7, 5.6, 6.6, 2.8]
 election_2022 = [30.33, 20.54, 19.10, 6.75, 6.71, 5.34, 5.08, 4.61]
 
 poll_colors = ['#ec1e37', '#fedf09', '#99def9', '#b00000', '#1a4335', '#015fa1', '#2b912c', '#006ab3']
@@ -13,7 +13,7 @@ width = 0.6
 
 fig, ax = plt.subplots(figsize=(10, 8))
 ax.bar(x + width/10, election_2022, width=width, color=election_colors, label='2022 Election')
-ax.bar(x - width/10, polling_2025, width=width, color=poll_colors, label='August 2025 Polling')
+ax.bar(x - width/10, polling_2026, width=width, color=poll_colors, label='September 2026 Polling')
 
 ax.set_ylabel('%')
 ax.set_xticks(x)
