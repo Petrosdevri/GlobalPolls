@@ -37,6 +37,8 @@ moldova:
 	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Moldova
 russia:
 	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Russia
+russia2:
+	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Russia2
 ukraine:
 	make run-script CONTINENT=Eurasia REGION=EasternEurope COUNTRY=Ukraine
 
@@ -115,6 +117,8 @@ austria:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Austria
 belgium:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Belgium
+berlin:
+	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Berlin
 european-union:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=EuropeanUnion
 flanders:
