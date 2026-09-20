@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 parties = ['YR', 'KPRF', 'LDPR', 'SRZP', 'NL', 'Yabloko']
-polling_2025 = [37.5, 9.0, 10.6, 3.7, 5.0, 25.0]
+polling_2025 = [27.0, 12.7, 8.4, 4.1, 8.9, 9.9]
 election_2021 = [49.82, 18.93, 7.55, 7.46, 5.32, 1.34]
 
 poll_colors = ['#2057b4', '#c00c05', '#0973b0', '#f9b80b', '#0fd0c9', '#00a23d']
