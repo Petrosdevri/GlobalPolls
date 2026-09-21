@@ -129,6 +129,8 @@ germany:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Germany
 luxembourg:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Luxembourg
+mecklenburg-vorpommern:
+	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Mecklenburg-Vorpommern
 netherlands:
 	make run-script CONTINENT=Europe REGION=WestEurope COUNTRY=Netherlands
 netherlands-seats:
