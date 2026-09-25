@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-parties = ['Fidesz-KDNP', 'DK', 'MH', 'MKKP', 'TISZA']
-polling_2025 = [43.0, 4.3, 4.7, 3.5, 42.0]
-election_2022 = [54.13, 34.44, 5.88, 3.27, 0.10]
+parties = ['TISZA', 'Fidesz-KDNP', 'MH', 'DK', 'MKKP']
+polling_2025 = [68.0, 22.0, 7.0, 1.0, 1.0]
+election_2022 = [55.26, 36.72, 5.72, 1.08, 0.65]
 
-poll_colors = ['#f17425', '#0f6bb1', '#6a8b1e', '#d7d5d5', '#ea4654']
-election_colors = ['#f6ab7c', '#6fa6d0', '#a5b978', '#e7e5e5', '#f29098']
+poll_colors = ['#ea4654', '#f17425', '#6a8b1e', '#0f6bb1', '#d7d5d5']
+election_colors = ['#f29098', '#f6ab7c', '#a5b978', '#6fa6d0', '#e7e5e5']
 
 x = np.arange(len(parties))
 width = 0.6
