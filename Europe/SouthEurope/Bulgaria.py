@@ -1,19 +1,19 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-parties = ['GERB-SDS', 'PP-DB', 'Vazrazdhane', 'DPS-NN', 'BSP-OL', 'APS', 'ITN', 'MECh', 'Velichie']
-polling_2025 = [28.3, 15.4, 12.8, 14.6, 9.0, 3.1, 5.2, 7.0, 4.6]
-election_2024 = [26.39, 14.21, 13.36, 11.51, 7.57, 7.49, 6.78, 4.60, 4.00]
+parties = ['PB', 'GERB-SDS', 'PP-DB', 'DPS-NN', 'Vazrazdhane', 'MECh', 'Velichie', 'BSP-OL']
+polling_2026 = [44.4, 12.6, 14.6, 7.4, 5.0, 2.2, 2.3, 3.7]
+election_2026 = [44.59, 13.39, 12.62, 7.12, 4.26, 3.23, 3.10, 3.02]
 
-poll_colors = ['#2269b9', '#0818f0', '#bc9f6b', '#0c62a1', '#d21c25', '#6147aa', '#4fb2d9', '#000000', '#ad3537']
-election_colors = ['#7aa5d5', '#6a74f6', '#d6c5a6', '#6da0c6', '#e4767c', '#a090cc', '#95d0e8', '#666666', '#cd8587']
+poll_colors = ['#204a41', '#2269b9', '#0818f0', '#0c62a1', '#bc9f6b', '#000000', '#ad3537', '#d21c26']
+election_colors = ['#62807a', '#7aa5d5', '#6a74f6', '#6da0c6', '#d6c5a6', '#666666', '#cd8587', '#e4767c']
 
 x = np.arange(len(parties))
 width = 0.6
 
 fig, ax = plt.subplots(figsize=(10, 8))
-ax.bar(x + width/10, election_2024, width=width, color=election_colors, label='2024 Election')
-ax.bar(x - width/10, polling_2025, width=width, color=poll_colors, label='August 2025 Polling')
+ax.bar(x + width/10, election_2026, width=width, color=election_colors, label='2026 Election')
+ax.bar(x - width/10, polling_2026, width=width, color=poll_colors, label='September 2026 Polling')
 
 ax.set_ylabel('%')
 ax.set_xticks(x)
