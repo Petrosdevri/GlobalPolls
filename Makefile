@@ -7,6 +7,8 @@ zambia:
 canada:
 	make run-script CONTINENT=America REGION=NorthAmerica COUNTRY=Canada
 
+brazil:
+	make run-script CONTINENT=America REGION=SouthAmerica COUNTRY=Brazil
 colombia:
 	make run-script CONTINENT=America REGION=SouthAmerica COUNTRY=Colombia
 colombia2:
