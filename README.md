@@ -89,6 +89,7 @@ A compilation of party opinion polls, categorised by continent, region and count
   <img alt="Malta" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/MT.svg" title="Malta" width="60" height="40" />
   <img alt="Portugal" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/PT.svg" title="Portugal" width="60" height="40" />
   <img alt="Romania" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/RO.svg" title="Romania" width="60" height="40" />
+  <img alt="Serbia" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/RS.svg" title="Serbia" width="60" height="40" />
   <img alt="Slovenia" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/SI.svg" title="Slovenia" width="60" height="40" />
   <img alt="Spain" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/ES.svg" title="Spain" width="60" height="40" />
 </div>
