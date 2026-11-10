@@ -36,7 +36,10 @@ A compilation of party opinion polls, categorised by continent, region and count
 </div>
 
 ### Middle East
-<img alt="Israel" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/IL.svg" title="Israel" width="60" height="40" /> 
+<div style="display: flex">
+  <img alt="Israel" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/IL.svg" title="Israel" width="60" height="40" />
+  <img alt="Palestine" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/PS.svg" title="Palestine" width="60" height="40" /> 
+</div> 
 
 ## Eurasia
 ### Caucasus
