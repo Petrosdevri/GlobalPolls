@@ -28,6 +28,8 @@ thailand:
 
 israel:
 	make run-script CONTINENT=Asia REGION=MiddleEast COUNTRY=Israel
+palestine:
+	make run-script CONTINENT=Asia REGION=MiddleEast COUNTRY=Palestine
 
 armenia:
 	make run-script CONTINENT=Eurasia REGION=Caucasus COUNTRY=Armenia
